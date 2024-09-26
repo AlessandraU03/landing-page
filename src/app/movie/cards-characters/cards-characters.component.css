@@ -1,0 +1,71 @@
+h3.title {
+    font-size: 2.25rem; 
+    font-weight: bold; 
+    text-align: start; 
+    margin-bottom: 1.5rem; 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem; 
+}
+
+
+.card {
+    display: flex;
+    justify-content: space-between; 
+    margin: 1rem 0; 
+}
+
+.card-inner {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    background-color: white; 
+    padding: 1rem; 
+}
+
+.card img {
+    width: 13rem; 
+    height: 13rem;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 1rem;
+}
+
+.card-name {
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-bottom: 0.25rem; 
+}
+
+.card-role {
+    color: #4A5568; 
+    font-size: 1.25rem; 
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    padding: 1rem; 
+}
+
+.text-card img {
+    width: 13rem; 
+    height: 13rem; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 1rem;
+}
+
+.text-card h3 {
+    font-size: 1.125rem; 
+    font-weight: 600; 
+}
+
+.text-card p {
+    color: #4A5568; /
+}
