@@ -6,6 +6,9 @@ import { DashboardMovieComponent } from './movie/dashboard-movie/dashboard-movie
 import { HeaderMovieComponent } from './movie/header-movie/header-movie.component';
 import { ContentMovieComponent } from './movie/content-movie/content-movie.component';
 import { FooterMovieComponent } from './movie/footer-movie/footer-movie.component';
+import { ContentViewtwoComponent } from './movie/content-viewtwo/content-viewtwo.component';
+import { CardsCharactersComponent } from './movie/cards-characters/cards-characters.component';
+import { GaleriaMovieComponent } from './movie/galeria-movie/galeria-movie.component';
 
 
 @NgModule({
@@ -15,6 +18,9 @@ import { FooterMovieComponent } from './movie/footer-movie/footer-movie.componen
     HeaderMovieComponent,
     ContentMovieComponent,
     FooterMovieComponent,
+    ContentViewtwoComponent,
+    CardsCharactersComponent,
+    GaleriaMovieComponent,
   ],
   imports: [
     BrowserModule
